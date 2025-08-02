@@ -1,0 +1,218 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }  
+   /* navbar code starts from here */
+ #navbar{
+         width: 100%;
+         height: 150px;
+         background-color: rgb(255,154,50);
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+          color:#090040;
+          position: fixed;
+          z-index: 1000;
+ }
+ 
+ #navbar img{
+      width: 85px;
+      height: 85px;
+      border-radius: 50%;
+       margin: 50px;
+    box-shadow: 3px 3px 10px black;
+      cursor: pointer;
+      
+ }
+ #navbar h4{font-size:50px;
+   font-style: italic;
+   padding-right: 200px;
+ }
+  
+ .nav ul {
+   display: flex; 
+   list-style: none;
+   gap: 20px; 
+   padding-right: 80px; 
+   
+ }
+ .nav ul li a{
+   text-decoration: none;
+   color: #090040;
+   
+ }
+ .nav ul li :hover{
+ color: blueviolet;
+ text-decoration: underline;
+ }
+
+         /* firstpage  coding starts from here  */
+ #firstpage {
+           background-color: rgb(247,244,231);
+        display: flex;
+        padding-top: 150px;
+
+ }
+ #firstpage img:hover{
+  box-shadow: 3px 3px 8px #6854e8;
+  cursor: pointer;
+ }
+  .main1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }  
+.home h4:hover{
+  text-shadow: 2px 2px 5px black;
+  cursor: pointer;
+
+}
+
+ #firstpage h4{
+    font-size: 70px;
+    color: rgb(65,30,100);
+ }
+ 
+ #firstpage p{
+   color: rgb(255,154,50);
+   font-style: italic; 
+   font-size: 20px;
+ }
+ .home{
+padding-top: 150px;
+padding-left: 80px;
+
+ }
+ .home p{
+  line-height: 35px;
+ }
+             /* second page start from here  */
+ #secondpage{
+  background-color: rgb(247,244,231); 
+  padding-top: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ #secondpage p{
+  position: absolute;
+  font-size: 45px;
+  color:rgb(65,30,100);   
+ }
+      /* thirdpage start from here  */
+
+  #thirdpage{
+    background-color:rgb(247,244,231);  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+  }
+ 
+   #thirdpage  h2{
+    font-size: 40px;
+    padding-left: 100px; 
+    color:rgb(255,154,50);  
+  } 
+   #thirdpage p{
+  color:rgb(65,30,100);
+     font-size: 20px;
+    
+  } 
+ #parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap:10px;
+    width: 100%;
+    height: 1000px;  
+ }
+
+ .child{
+    width: 300px;
+    height: 800px;
+   margin: 10px 0;
+   padding: 0;
+   font-size: 16px;
+   line-height: 1.5;
+    text-align: center;
+    flex-direction: column;  
+ }
+ .child h1{
+  color:rgb(255,154,50);
+  font-size: 40px;
+ }  
+ .child img:hover{
+  box-shadow: 3px 3px 10px black;
+  cursor: pointer;
+
+ }
+  .info{
+         background-color: rgb(65,30,100);
+          color:rgb(247,244,231) ;
+          border: none;
+          font-size: 16px;
+          cursor: pointer;
+          width: 70px;
+          height: 40px;
+ }
+
+ .child .info:hover{
+  background-color: blueviolet;
+  color: black;
+  box-shadow: 3px 3px 10px blue;
+
+ }
+
+         /* fourthpage start here */
+ #fourthpage{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(65,30,100);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  padding-top: 150px;
+    color: white;
+ }
+  
+ #fourthpage h1{
+  font-size: 40px;
+ }
+
+ #fourthpage h3{
+  font-family: serif;
+ }
+ #fourthpage p{
+  text-align: center;
+  line-height: 1.9;
+  padding-left: 30px;
+  padding-right: 20px;
+ }
+ #fourthpage .learn{
+  width: 120px;
+  height: 40px;
+  box-shadow: 3px 3px 10px black;
+  background-color: rgb(255,154,50); ;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+ }  
+      #fourthpage .learn:hover{
+        background-color: #ffd90047;
+        color:white;
+      }
+
+             /* fifthpage start here */
+
+ #fifthpage{
+    background-color: rgb(247,244,231);
+    padding-left: 150px;
+    /* padding-right: 200px; */
+    grid-template-columns:  auto auto;
+    padding-top: 100px;
+ }
+ 
