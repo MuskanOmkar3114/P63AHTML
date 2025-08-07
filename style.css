@@ -46,7 +46,6 @@
  }
  .nav ul li :hover{
  color:#00809D;
- /* text-decoration: underline; */
  }
 
          /* firstpage  coding starts from here  */
@@ -392,14 +391,97 @@ padding-left: 80px;
       }
       /* tenth page coding start from here  */
 
-      #tenthpage {
+      #tenthpage .parent{
                width: 100%;
               background-color: rgb(247,244,231);
-                
                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding-left: 200px;
+                justify-content: center;
+                align-items: right;
+                 padding-left: 200px; 
                 padding-right: 200px;
               /* padding-top:100px; */
+              /* padding-bottom: 200px;  */
+              gap: 30px;
+      }
+      #tenthpage .main5 h1{
+         font-size: 50px;
+          color: rgb(255,154,50) ;
+         /* padding-right: 350px; */
+         /* display: flex; */
+         /* flex-direction: column; */
+      }
+      #tenthpage .main5 p{
+        font-size: 20px;
+        color: #090040;
+      }
+
+      #tenthpage .main9{
+        /* padding-top: 100px;  */
+        display: flex;
+        justify-content: right;
+        align-items: center;
+      }
+        #tenthpage .main9 input {
+        width: 300px;
+        height: 40px;
+      }
+       #tenthpage .main9 button {
+        width: 350px;
+        height: 40px;
+    background-color: rgb(65,30,100);
+
+  
+
+      }
+       #tenthpage .main9 button:hover {
+        background-color:  rgb(255,154,50);
+       box-shadow: 2px 2px 2px black;
+      }
+
+     /* #tenthpage .map{
+              background-color: rgb(247,244,231);
+      width: 100%;
+      height: 300px;
+ margin-top: 30px;
+     }
+  #tenthpage .map iframe{
+               width: 100%;
+               height: 100%;
+               border: 0;
+          padding-bottom: 50px;
+              
+     } */
+     /* last footer coding start from here  */
+
+     #last{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+              background-color: rgb(240,234,206);
+      /* display: flex;
+      flex-direction: row; */
+      display: grid;
+      grid-template-rows: 1fr;
+      padding-top: 40px;
+    
+
+    
+     }
+ #last .last1{
+  gap: 10px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ #last .last2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+    color: rgb(65,30,100);
+
+ }
+      @media(max-width:430px){
+        
       }
