@@ -1,0 +1,9 @@
+{
+	"name": "Data-me-factory",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a8c0fded-d18f-4bef-94f8-4bf25a8934b7",
+		"tenantId": "9e9bee86-2ee2-42d7-8987-2763bbee6134"
+	}
+}
